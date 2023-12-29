@@ -7,7 +7,7 @@ window.onload = function () {
             this.classList.toggle('active');
             const answer = this.nextElementSibling;
             const icon = this.querySelector('.icons')
-            
+
             if (answer.style.maxHeight) {
                 answer.style.maxHeight = null;
                 icon.src = 'assets/images/icon-plus.svg';
